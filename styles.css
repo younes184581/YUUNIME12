@@ -97,7 +97,7 @@ input[type=text] {
   }
   
   .cover img {
-    width: 50%;
+    width: 120%;
     border-radius: 10px;
   }
   
@@ -242,3 +242,11 @@ input[type=text] {
     position: relative;
     top: -10px;
   }
+
+    @media screen and (max-width: 768px)
+    {
+      .anime-grid
+      {
+        width: calc(130% - 20px)
+      }
+    }
