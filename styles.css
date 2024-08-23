@@ -209,6 +209,8 @@ input[type=text] {
   .new
   {
     text-align: center;
+    position: relative;
+    right: -33px;
     font-family: "New Amsterdam", sans-serif;
     font-size: 3rem;
 
@@ -218,6 +220,9 @@ input[type=text] {
     text-align: center;
     font-family: "New Amsterdam", sans-serif;
     font-size: 3rem;
+    position: relative;
+    right: -33px;
+    
   }
 
   .in-this-year
@@ -225,6 +230,8 @@ input[type=text] {
     text-align: center;
     font-family: "Noto Sans", sans-serif;
     font-weight: bold;
+    position: relative;
+    right: -36px;
   }
 
   @media screen and (max-width: 768px)
@@ -233,6 +240,7 @@ input[type=text] {
     {
       width: 100%;
       position: relative;
+      right: -20px;
       top: -10px;
     }
   }
@@ -240,7 +248,7 @@ input[type=text] {
   {
     width: 100%;
     position: relative;
-    top: -10px;
+    top: -20px;
   }
 
     @media screen and (max-width: 768px)
