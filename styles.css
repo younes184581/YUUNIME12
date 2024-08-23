@@ -240,7 +240,7 @@ input[type=text] {
     {
       width: 100%;
       position: relative;
-      right: -20px;
+      right: -60px;
       top: -10px;
     }
   }
@@ -258,3 +258,4 @@ input[type=text] {
         width: calc(130% - 20px)
       }
     }
+    
